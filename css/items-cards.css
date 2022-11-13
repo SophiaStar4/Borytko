@@ -1,0 +1,57 @@
+.item-card {
+    width: 20%;
+    text-align: center;
+}
+
+.item-card > .wheele_img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wheele_img * {
+    width: 100%;
+}
+
+.wheele_img > * {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wheele_img > .image_link {
+    opacity: 1;
+}
+
+.wheele_img > .image_hover {
+    opacity: 0;
+}
+
+.parameters > a {
+    display: flex;
+    flex-direction: column;
+}
+
+.patameters > span:hover {
+    text-decoration: underline;
+}
+
+.name-model {
+    font-size: 24px;
+    font-weight: 700;
+    color: #EA5A1A;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.cost {
+    font-size: 24px;
+    color: #3DBAB7;
+}
+
+.explanation {
+    font-size: 12px;
+}

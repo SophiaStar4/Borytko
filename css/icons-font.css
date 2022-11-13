@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icons/icomoon.eot?aj5491');
+  src:  url('../fonts/icons/icomoon.eot?aj5491#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?aj5491') format('truetype'),
+    url('../fonts/icons/icomoon.woff?aj5491') format('woff'),
+    url('../fonts/icons/icomoon.svg?aj5491#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone-call-free-icon-font:before {
+  content: "\e907";
+}
+.icon-telegram:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-exclamation-thick:before {
+  content: "\e901";
+  color: #ea5a1a;
+}
+.icon-cross:before {
+  content: "\e902";
+  color: #ea5a1a;
+}
+.icon-instagram .path1:before {
+  content: "\e903";
+  color: rgb(255, 255, 255);
+  opacity: 0.978;
+}
+.icon-instagram .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.962;
+}
+.icon-instagram .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.975;
+}
+.icon-point:before {
+  content: "\e906";
+  color: #ea5a1a;
+}

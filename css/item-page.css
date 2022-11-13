@@ -1,0 +1,229 @@
+.overview-video {
+    width: auto;
+    height: 32vh;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item_inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+.overview-image {
+    display: flex;
+    align-items: flex-end;
+    /* width: 60%; */
+    flex: 3;
+    margin-right: 32px;
+    /* border: 2px solid red; */
+}
+
+.item-image_container {
+    display: flex;
+    /* width: 80%; */
+    margin-left: 12px;
+}
+
+.item-image_main {
+    /* width: 100%; */
+    flex: 3;
+    border-left: 4px solid #EA5A1A;
+    border-bottom: 4px solid #EA5A1A;
+    margin-bottom: 12px;
+}
+
+.item-image_main > img {
+    width: 100%;
+}
+
+.item-image_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 24%; */
+    flex: 1;
+    margin: 12px 0;
+}
+
+.item-image_mini { 
+    width: 100%;
+}
+
+.item-image_mini:first-child {
+    filter: blur(4px);
+}
+
+.item-image_mini > img {
+    width: 100%;
+}
+
+.descrip_container {
+    flex: 2;
+    margin-top: 60px;
+}
+
+.descrip_container > h2 {
+    font-size: 20px;
+}
+
+.descrip_container h2 {
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #EA5A1A;
+}
+
+.articles_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.articles_container > article {
+    flex: 1;
+}
+
+.articles_container > article:nth-child(2) {
+    margin: 0 12px;
+}
+
+.articles_container h2 {
+    color: #F4F4F488;
+}
+
+.articles_container p {
+    font-size: 24px;
+}
+
+.colors_container {
+    display: flex;
+    align-items: center;
+}
+
+.colors_container > h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.colors {
+    display: flex;
+}
+
+.colors > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #F4F4F4;
+}
+
+.colors > label:not(:first-child) {
+    margin-left: 16px;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+.colors label > span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #3DBAB7;
+}
+
+input[type='radio']:checked + label {
+    background-color: #684192;
+}
+
+.decor {
+    margin-top: 20px;
+}
+
+.price > h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3DBAB7;
+}
+
+.price > p {
+    color: #FFFFFF88;
+}
+
+/* Форма обратной связи -------------------------------------------------- */
+
+.call-back_form {
+    margin-bottom: 20px;
+}
+
+.call-back_form_inner > h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.call-back_form_inner > form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.call-back_form_inner textarea {
+    width: 40%;
+    margin-right: 16px;
+}
+
+.call-back_form_inner input {
+    flex: 1;
+    margin-right: 16px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.privacy_check a {
+    color: #3DBAB7;
+}
+
+.privacy_check a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+}
+
+[name='send-call-back_form'] {
+    border: 2px solid #EA5A1A;
+    color: #F4F4F4;
+    background-color: #EA5A1A;
+}
+
+[name='clear-call-back_form'] {
+    border: 2px solid #684192;
+    color: #F4F4F4;
+    background-color: #684192;
+}
+
+.buttons > input:hover {
+    border-color: #3DBAB7;
+}
+
+.buttons > input:active {
+    background-color: #3DBAB7;
+}
