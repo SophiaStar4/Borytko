@@ -1,0 +1,87 @@
+/* Адапритвность ----------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+    header {
+        font-size: 16px;
+    }
+
+    .logotype {
+        height: 60px;
+    }
+
+    .form-question input[type='text'], .form-question textarea {
+        width: 200px;
+    }
+
+    .filters_inner > form {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-content_inner {
+        flex-wrap: wrap;
+    }
+
+    .company-label{
+        flex: 10;
+    }
+
+    .logotype-mini {
+        width: 40px;
+    }
+
+    .footer-content_inner > nav {
+        flex: 25;
+    }
+
+    .form-question {
+        width: 100%;
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .form-question input:not(.form-question input[type='button']), .form-question textarea {
+        width: 75%;
+    }
+
+    .connection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .burger-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    .burger-menu nav {
+        width: 40%;
+    }
+
+    .footer-content_inner > nav {
+        margin-top: 20px;
+    }
+
+    .footer-content_inner > .connection {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .burger-menu nav {
+        width: 60%;
+    }
+
+    .company-label{
+        flex: 100%;
+    }
+
+    .footer-content_inner > nav {
+        flex: 30%;
+    }
+}

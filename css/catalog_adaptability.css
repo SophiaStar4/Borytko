@@ -1,0 +1,25 @@
+/* Адапритвность ----------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+    .filters_inner > form {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 640px) {
+    .item-card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
